@@ -49,6 +49,7 @@ export default function Home() {
           <View style={styles.containerInput}>
             <Text style={styles.descpLabel}>Peso (kg)</Text>
             <TextInput
+              keyboardType="numeric"
               onChangeText={setPeso}
               style={styles.input}
               placeholderTextColor={"#FFF"}
@@ -59,6 +60,7 @@ export default function Home() {
           <View style={styles.containerInput}>
             <Text style={styles.descpLabel}>Altura (m)</Text>
             <TextInput
+              keyboardType="numeric"
               onChangeText={setAltura}
               style={styles.input}
               placeholderTextColor={"#FFF"}
